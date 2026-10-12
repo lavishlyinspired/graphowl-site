@@ -65,6 +65,26 @@
       </div>
     </section>
 
+    <section id="rust" class="band">
+      <h2>Built in Rust</h2>
+      <p class="intro">The server is written in Rust, as a workspace of small, single-purpose crates. What that means for what you run:</p>
+      <div class="cols">
+        <article>
+          <h3>Safe and steady</h3>
+          <p>Memory safety without a garbage collector: whole classes of crashes and security flaws cannot be written in safe code, and there are no collector pauses to show up as latency spikes.</p>
+        </article>
+        <article>
+          <h3>One server to run</h3>
+          <p>The server, the API and the console ship as a single program. There is no runtime or virtual machine to install, and few moving parts to operate.</p>
+        </article>
+        <article>
+          <h3>Rules in the types</h3>
+          <p>A fact has a source, a derived fact is marked derived, a model change needs review. These are encoded in types, so breaking them is a compile error, not a surprise in production.</p>
+        </article>
+      </div>
+      <p class="intro">No benchmark figures are claimed yet; they will be published with the method that produced them.</p>
+    </section>
+
     <section id="demo" class="band">
       <h2>The demo: Northfield Dairy Cooperative</h2>
       <p class="intro">A synthetic cooperative, so there is no real data in it. Its source database holds farms, milk lots, quality tests, production batches and retail sales.</p>
