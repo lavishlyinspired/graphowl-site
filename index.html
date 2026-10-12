@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GraphOWL — a knowledge graph engine for enterprise metadata</title>
+  <meta name="description" content="GraphOWL stores, queries, reasons over and validates enterprise metadata as one connected graph, with history, rules and validation built in.">
+  <link rel="canonical" href="https://graphowl.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GraphOWL — a knowledge graph engine for enterprise metadata">
+  <meta property="og:description" content="Store, query, reason over and validate enterprise metadata as one connected graph. See the console on a synthetic dairy cooperative.">
+  <meta property="og:url" content="https://graphowl.app/">
+  <meta property="og:image" content="https://graphowl.app/assets/console-overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="bar">
+    <a class="brand" href="/" aria-label="GraphOWL home">Graph<span>OWL</span></a>
+    <nav aria-label="Primary">
+      <a href="#what">What it is</a>
+      <a href="#demo">The demo</a>
+      <a href="#access">Access</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <h1>A knowledge graph engine for enterprise metadata.</h1>
+      <p class="lede">GraphOWL stores, queries, reasons over and validates enterprise metadata as one connected graph. History, rules and validation are part of the engine, not added on top of it.</p>
+      <p class="actions">
+        <a class="button" href="mailto:connect@graphowl.app?subject=GraphOWL%20demo%20access">Request demo access</a>
+        <a class="link" href="#demo">See the console</a>
+      </p>
+      <figure>
+        <img src="assets/console-overview.jpg" width="1549" height="784" alt="The GraphOWL console overview for the Northfield Dairy Cooperative workspace: 1,828 facts, 257 subjects, one ontology pack, and the most-written types MilkLot, QualityTest and ColdChainReading.">
+        <figcaption>The console on a synthetic dairy cooperative. 1,828 facts and 257 subjects, loaded from a sample of the source database.</figcaption>
+      </figure>
+    </section>
+
+    <section id="what" class="band">
+      <h2>What it is</h2>
+      <p class="intro">Three layers, one product. The engine is the foundation; the catalog and the context layer sit on top of it.</p>
+      <div class="cols">
+        <article>
+          <h3>Engine</h3>
+          <p>A triple store with time travel, constraint validation, reasoning and graph query. Every fact keeps its history: nothing is deleted, only retracted.</p>
+        </article>
+        <article>
+          <h3>Catalog</h3>
+          <p>The enterprise metadata model — entities, hierarchy and governance — expressed in the graph itself, so definitions, ownership and lineage are queried like any other fact.</p>
+        </article>
+        <article>
+          <h3>Context layer</h3>
+          <p>Ways for people and agents to use the graph: an MCP server, semantic search and APIs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="demo" class="band">
+      <h2>The demo: Northfield Dairy Cooperative</h2>
+      <p class="intro">A synthetic cooperative, so there is no real data in it. Its source database holds farms, milk lots, quality tests, production batches and retail sales.</p>
+      <ol class="steps">
+        <li><strong>Scan.</strong> GraphOWL reads the database's tables, columns and keys.</li>
+        <li><strong>Propose.</strong> It proposes an ontology from them. A person reviews and approves it.</li>
+        <li><strong>Load.</strong> A bounded sample of rows becomes instances of the approved classes.</li>
+        <li><strong>Use.</strong> Explore the graph, ask questions in SPARQL or as graph patterns, and see how much of the model is covered and documented.</li>
+      </ol>
+      <p>The source database is read through a read-only role, so nothing in the console can change it.</p>
+    </section>
+
+    <section id="access" class="band">
+      <h2>Access</h2>
+      <p class="intro">The live demo is password-protected while GraphOWL is in early access. Email <a href="mailto:connect@graphowl.app?subject=GraphOWL%20demo%20access">connect@graphowl.app</a> and you will be sent a login for <a href="https://demo.graphowl.app/">demo.graphowl.app</a>.</p>
+      <p class="actions">
+        <a class="button" href="mailto:connect@graphowl.app?subject=GraphOWL%20demo%20access">Request demo access</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>GraphOWL · <a href="mailto:connect@graphowl.app">connect@graphowl.app</a></p>
+    <p class="small">The demo contains synthetic data only.</p>
+  </footer>
+</body>
+</html>
