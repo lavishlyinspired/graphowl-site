@@ -38,8 +38,8 @@ a:focus-visible, .button:focus-visible { outline: 3px solid var(--focus); outlin
   padding: 16px max(16px, calc((100vw - 1040px) / 2));
   border-bottom: 1px solid var(--line);
 }
-.brand { font-weight: 700; font-size: 20px; color: var(--text); text-decoration: none; letter-spacing: -0.01em; }
-.brand span { color: var(--accent); }
+.brand { display: inline-block; line-height: 0; text-decoration: none; }
+.brand img { display: block; height: 36px; width: auto; }
 nav { display: flex; gap: 20px; flex-wrap: wrap; }
 nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
 nav a:hover { color: var(--text); }
